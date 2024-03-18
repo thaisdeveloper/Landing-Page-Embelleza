@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sansserif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.empresa {
+    background-color: black;
+    color: goldenrod;
+    display: block;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.empresa .texto {
+    flex: 1;
+    font-size: 50px;
+    color: white;
+}
+
+.empresa .texto p {
+    text-align: center;
+}
+
+.empresa button {
+    background-color: rgb(10, 80, 10);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 250px;
+    font-size: 20px;
+}
+
+.empresa button:hover {
+    background-color: white;
+    color: black;
+}
+
+.empresa .foto {
+    order: 1;
+}
+
+.empresa .foto1 {
+    order: 1;
+}
+
+.empresa .foto1 img {
+    float: left;
+    margin-bottom: 150px;
+}
+
+.empresa .foto img {
+    float: right;
+    margin-bottom: 150px;
+}
+
+.depoimentos {
+    background-color: white;
+    color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.depoimentos h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-depoimentos {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 8px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+}
+
+.depoimentos {
+    background-color: white;
+    color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.depoimentos h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-depoimentos {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 8px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+}
+
+.depoimentos {
+    background-color: white;
+    color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.depoimentos h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-depoimentos {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 8px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+}
+
+.depoimentos .foto img {
+    float: right;
+}
+
+.ambiente {
+    background-color: white;
+    color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.amiente h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-ambiente {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 8px;
+    text-align: center;
+    width: 350px;
+    margin: 10px;
+    margin-left: 120px;
+}
+
+.promocoes {
+    background-color: black;
+    color: goldenrod;
+    display: block;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.textopiscante {
+    animation: blink 1s infinite;
+    text-align: center;
+    margin-left: 240px;
+}
+
+.promocoes h1 {
+    flex: 1;
+    font-size: 30px;
+    color: white;
+}
+
+.promocoes p {
+    flex: 1;
+    font-size: 20px;
+    color: white;
+}
+
+.promocoes button {
+    background-color: rgb(10, 80, 10);
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.promocoes button:hover {
+    background-color: white;
+}
+
+.promocoes .insta {
+    background-color: rgb(10, 80, 10);
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 200px;
+}
+
+.contato {
+    background-color: rgb(10, 80, 10);
+    color: black;
+    display: block;
+    padding: 8px;
+}
+
+.contato ul {
+    display: block;
+    columns: 2;
+    gap: 5px;
+}
+
+.contato ul li {
+    text-decoration-line: none;
+    align-items: center;
+}
+
+.contato li {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: goldenrod;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer p {
+    flex: 1;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+.h1-footer {
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.p-depor {
+    font-variant: small-caps;
+    font-weight: bold;
+    color: rgb(10, 80, 10);
+    ;
+}
+
+.servicos {
+    background-color: goldenrod;
+    color: white;
+}
